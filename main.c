@@ -37,8 +37,10 @@ void insertion_sort(int list[], int n)
     }
 }
 
+
 int ascend(int x, int y) {return y-x;}
 int descend(int x, int y) {return x-y;}
+
 
 void insertion_sort_fn(int list[], int n, int(*f)(int, int))
 {
