@@ -6,7 +6,7 @@
 void printArray(int arr[], int n, char *str)
 {
     int i;
-    printf("hello");
+    printf("hello world");
     printf("%s = ", str);
     for(i=0; i<n;i++) printf("%3d", arr[i]);
     printf("\n");
